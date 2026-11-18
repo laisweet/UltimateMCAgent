@@ -1,0 +1,5 @@
+﻿sft_data/
+outputs/
+*.log
+eval_predictions.json
+__pycache__/

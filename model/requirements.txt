@@ -1,0 +1,6 @@
+# W7900D：先装管理员推荐、与宿主 ROCm 匹配的 torch wheel，再装下面依赖。
+# 本机 NVIDIA 联调才需要 CUDA torch + bitsandbytes（--qlora）。
+transformers>=4.55,<5
+peft>=0.16,<1
+accelerate>=1.5,<2
+# bitsandbytes>=0.45,<1   # 仅本机 8GB QLoRA 时需要；ROCm 上常不可用
